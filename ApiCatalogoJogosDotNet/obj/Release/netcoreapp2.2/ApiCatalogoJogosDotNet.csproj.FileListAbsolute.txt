@@ -1,0 +1,5 @@
+C:\Users\anton\source\repos\ApiCatalogoJogosDotNet\ApiCatalogoJogosDotNet\obj\Release\netcoreapp2.2\ApiCatalogoJogosDotNet.csproj.AssemblyReference.cache
+C:\Users\anton\source\repos\ApiCatalogoJogosDotNet\ApiCatalogoJogosDotNet\obj\Release\netcoreapp2.2\ApiCatalogoJogosDotNet.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\anton\source\repos\ApiCatalogoJogosDotNet\ApiCatalogoJogosDotNet\obj\Release\netcoreapp2.2\ApiCatalogoJogosDotNet.AssemblyInfoInputs.cache
+C:\Users\anton\source\repos\ApiCatalogoJogosDotNet\ApiCatalogoJogosDotNet\obj\Release\netcoreapp2.2\ApiCatalogoJogosDotNet.AssemblyInfo.cs
+C:\Users\anton\source\repos\ApiCatalogoJogosDotNet\ApiCatalogoJogosDotNet\obj\Release\netcoreapp2.2\ApiCatalogoJogosDotNet.csproj.CoreCompileInputs.cache
