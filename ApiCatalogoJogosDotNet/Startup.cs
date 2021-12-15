@@ -26,7 +26,7 @@ namespace ApiCatalogoJogosDotNet
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
-
+            //Adiciona aqui nossos controlers, se fosse no padrão mvc (e não API) teria que chamar colocando o views
             services.AddControllers();
             services.AddSwaggerGen(c =>
             {
@@ -37,9 +37,12 @@ namespace ApiCatalogoJogosDotNet
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
         public void Configure(IApplicationBuilder app, IWebHostEnvironment env)
         {
+            // Aqui é para utilizar na versão em desenvolvimento, isso é informado no arquivo lauchSettings.json
             if (env.IsDevelopment())
             {
+                // Esse tratamento para mostrar erro não é indicado para produção
                 app.UseDeveloperExceptionPage();
+                //Se for pra chamar o swager em produção, tem que colocar isso fora do if
                 app.UseSwagger();
                 app.UseSwaggerUI(c => c.SwaggerEndpoint("/swagger/v1/swagger.json", "ApiCatalogoJogosDotNet v1"));
             }

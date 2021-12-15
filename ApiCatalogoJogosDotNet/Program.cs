@@ -6,7 +6,7 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
-
+// Quando o proggrama inicia, ele vem primeiro por aqui 
 namespace ApiCatalogoJogosDotNet
 {
     public class Program
@@ -20,6 +20,7 @@ namespace ApiCatalogoJogosDotNet
             Host.CreateDefaultBuilder(args)
                 .ConfigureWebHostDefaults(webBuilder =>
                 {
+                    //Aí depois ele chama o Startup
                     webBuilder.UseStartup<Startup>();
                 });
     }
